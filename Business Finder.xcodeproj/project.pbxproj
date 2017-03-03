@@ -13,24 +13,30 @@
 		89034AE81D5532C300BCA3A0 /* URLFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 89034AE71D5532C300BCA3A0 /* URLFetcher.m */; };
 		89034AFA1D5537EF00BCA3A0 /* URLFetcherIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89034AF91D5537EF00BCA3A0 /* URLFetcherIntegrationTests.m */; };
 		89034AFD1D5544DA00BCA3A0 /* FourSquareGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 89034AFC1D5544DA00BCA3A0 /* FourSquareGateway.m */; };
+		890E51A81E563B01004A6061 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E51A71E563B01004A6061 /* MapViewController.m */; };
+		890E51AA1E579DEF004A6061 /* MapViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E51A91E579DEF004A6061 /* MapViewControllerTests.m */; };
+		890E51AC1E579E6C004A6061 /* NearbyBusinessesTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E51AB1E579E6C004A6061 /* NearbyBusinessesTableViewControllerTests.m */; };
+		890E51BA1E57BC4E004A6061 /* BusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E51B91E57BC4E004A6061 /* BusinessCell.m */; };
 		8919F7591D5273810061FA3E /* NearbyBusinessesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8919F7581D5273810061FA3E /* NearbyBusinessesDataSource.m */; };
 		891FC6891D96C37E00ED44C4 /* NearbyBusinessesTVCDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FC6881D96C37E00ED44C4 /* NearbyBusinessesTVCDelegateTests.m */; };
 		891FC68C1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FC68B1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.m */; };
 		891FC68F1D9C4FE900ED44C4 /* BusinessFinderErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FC68E1D9C4FE900ED44C4 /* BusinessFinderErrorDomain.m */; };
 		8931282D1D89C7220078B8F1 /* LocationGatewayIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8931282C1D89C7220078B8F1 /* LocationGatewayIntegrationTests.m */; };
 		893552DF1D7739B300D590A6 /* LocationGatewayUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893552DE1D7739B300D590A6 /* LocationGatewayUnitTests.m */; };
+		8940B6DF1E5CE448000D8946 /* BusinessAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940B6DE1E5CE448000D8946 /* BusinessAnnotation.m */; };
+		8940B6E21E5CED14000D8946 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940B6E11E5CED14000D8946 /* MapController.m */; };
+		8940B6E41E5CED3C000D8946 /* MapControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940B6E31E5CED3C000D8946 /* MapControllerTests.m */; };
 		8974894E1D4FB5FD00531975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8974894D1D4FB5FD00531975 /* main.m */; };
 		897489511D4FB5FD00531975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897489501D4FB5FD00531975 /* AppDelegate.m */; };
 		897489571D4FB5FD00531975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897489551D4FB5FD00531975 /* Main.storyboard */; };
 		8974895C1D4FB5FD00531975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8974895B1D4FB5FD00531975 /* Assets.xcassets */; };
 		8974895F1D4FB5FD00531975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8974895D1D4FB5FD00531975 /* LaunchScreen.storyboard */; };
-		897489751D4FB5FE00531975 /* Business_FinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897489741D4FB5FE00531975 /* Business_FinderUITests.m */; };
 		897489861D4FBC3E00531975 /* NearbyBusinessesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897489851D4FBC3E00531975 /* NearbyBusinessesTableViewController.m */; };
-		897489881D4FBD5200531975 /* MainStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897489871D4FBD5200531975 /* MainStoryboardTests.m */; };
 		8995D7DB1D7A0204006034B9 /* FourSquareGatewayIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89034B031D58F02800BCA3A0 /* FourSquareGatewayIntegrationTests.m */; };
 		89A10CDC1D511ABA009E5867 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A10CDB1D511ABA009E5867 /* Business.m */; };
-		89A10CE21D512DFD009E5867 /* BusinessesDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A10CE11D512DFC009E5867 /* BusinessesDataController.m */; };
-		89BD5A6F1D8860AF007879E0 /* BusinessesDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD5A6D1D886068007879E0 /* BusinessesDataControllerTests.m */; };
+		89A10CE21D512DFD009E5867 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A10CE11D512DFC009E5867 /* Model.m */; };
+		89BD5A6F1D8860AF007879E0 /* ModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD5A6D1D886068007879E0 /* ModelTests.m */; };
+		89CD09AB1E562CAB00F2CFD2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CD09AA1E562CAB00F2CFD2 /* MapKit.framework */; };
 		89E9A4F71DA6C2760046E868 /* FourSquareResponseParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E9A4F61DA6C2760046E868 /* FourSquareResponseParserTests.m */; };
 		89E9A4FB1DA6CE930046E868 /* Sample FourSquare Response.txt in Resources */ = {isa = PBXBuildFile; fileRef = 89E9A4FA1DA6CE930046E868 /* Sample FourSquare Response.txt */; };
 		89EE610D1DBEADE400D2FB36 /* Test Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EE610C1DBEADE400D2FB36 /* Test Media.xcassets */; };
@@ -41,7 +47,6 @@
 		89FB39061D88A00B0086851E /* FourSquareGatewayUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB39041D88A00B0086851E /* FourSquareGatewayUnitTests.m */; };
 		89FB39091D88A08C0086851E /* FourSquareResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB39081D88A08C0086851E /* FourSquareResponseParser.m */; };
 		89FB390C1D88A0C80086851E /* GCDGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB390B1D88A0C80086851E /* GCDGateway.m */; };
-		DAA32C2811F3D02926DF467E /* libPods-Business FinderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DBF609E3D820FC6BF64DD6 /* libPods-Business FinderUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +58,6 @@
 			remoteInfo = "Business Finder";
 		};
 		897489661D4FB5FE00531975 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 897489411D4FB5FD00531975 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 897489481D4FB5FD00531975;
-			remoteInfo = "Business Finder";
-		};
-		897489711D4FB5FE00531975 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 897489411D4FB5FD00531975 /* Project object */;
 			proxyType = 1;
@@ -81,8 +79,14 @@
 		89034AFB1D5544DA00BCA3A0 /* FourSquareGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareGateway.h; sourceTree = "<group>"; };
 		89034AFC1D5544DA00BCA3A0 /* FourSquareGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareGateway.m; sourceTree = "<group>"; };
 		89034B031D58F02800BCA3A0 /* FourSquareGatewayIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareGatewayIntegrationTests.m; sourceTree = "<group>"; };
+		890E51A61E563B01004A6061 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		890E51A71E563B01004A6061 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		890E51A91E579DEF004A6061 /* MapViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewControllerTests.m; sourceTree = "<group>"; };
+		890E51AB1E579E6C004A6061 /* NearbyBusinessesTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesTableViewControllerTests.m; sourceTree = "<group>"; };
+		890E51B81E57BC4E004A6061 /* BusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCell.h; sourceTree = "<group>"; };
+		890E51B91E57BC4E004A6061 /* BusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCell.m; sourceTree = "<group>"; };
 		8919F7571D5273810061FA3E /* NearbyBusinessesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyBusinessesDataSource.h; sourceTree = "<group>"; };
-		8919F7581D5273810061FA3E /* NearbyBusinessesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesDataSource.m; sourceTree = "<group>"; };
+		8919F7581D5273810061FA3E /* NearbyBusinessesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NearbyBusinessesDataSource.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		891FC6881D96C37E00ED44C4 /* NearbyBusinessesTVCDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesTVCDelegateTests.m; sourceTree = "<group>"; };
 		891FC68A1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyBusinessesTVCDelegate.h; sourceTree = "<group>"; };
 		891FC68B1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesTVCDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +94,11 @@
 		891FC68E1D9C4FE900ED44C4 /* BusinessFinderErrorDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessFinderErrorDomain.m; sourceTree = "<group>"; };
 		8931282C1D89C7220078B8F1 /* LocationGatewayIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGatewayIntegrationTests.m; sourceTree = "<group>"; };
 		893552DE1D7739B300D590A6 /* LocationGatewayUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGatewayUnitTests.m; sourceTree = "<group>"; };
+		8940B6DD1E5CE448000D8946 /* BusinessAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessAnnotation.h; sourceTree = "<group>"; };
+		8940B6DE1E5CE448000D8946 /* BusinessAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessAnnotation.m; sourceTree = "<group>"; };
+		8940B6E01E5CED14000D8946 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		8940B6E11E5CED14000D8946 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		8940B6E31E5CED3C000D8946 /* MapControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapControllerTests.m; sourceTree = "<group>"; };
 		897489491D4FB5FD00531975 /* Business Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8974894D1D4FB5FD00531975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8974894F1D4FB5FD00531975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,25 +109,22 @@
 		897489601D4FB5FD00531975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897489651D4FB5FE00531975 /* Fastest Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fastest Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8974896B1D4FB5FE00531975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		897489701D4FB5FE00531975 /* Business FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		897489741D4FB5FE00531975 /* Business_FinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Business_FinderUITests.m; sourceTree = "<group>"; };
-		897489761D4FB5FE00531975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897489841D4FBC3E00531975 /* NearbyBusinessesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyBusinessesTableViewController.h; sourceTree = "<group>"; };
 		897489851D4FBC3E00531975 /* NearbyBusinessesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesTableViewController.m; sourceTree = "<group>"; };
-		897489871D4FBD5200531975 /* MainStoryboardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStoryboardTests.m; sourceTree = "<group>"; };
 		89A10CDA1D511ABA009E5867 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
 		89A10CDB1D511ABA009E5867 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
-		89A10CDD1D5123ED009E5867 /* BusinessesDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessesDataController.h; sourceTree = "<group>"; };
-		89A10CE11D512DFC009E5867 /* BusinessesDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessesDataController.m; sourceTree = "<group>"; };
-		89BD5A6D1D886068007879E0 /* BusinessesDataControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessesDataControllerTests.m; sourceTree = "<group>"; };
+		89A10CDD1D5123ED009E5867 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Model.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		89A10CE11D512DFC009E5867 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Model.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		89BD5A6D1D886068007879E0 /* ModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ModelTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		89CD09AA1E562CAB00F2CFD2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		89E9A4F61DA6C2760046E868 /* FourSquareResponseParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareResponseParserTests.m; sourceTree = "<group>"; };
 		89E9A4FA1DA6CE930046E868 /* Sample FourSquare Response.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sample FourSquare Response.txt"; sourceTree = "<group>"; };
 		89EE610C1DBEADE400D2FB36 /* Test Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Test Media.xcassets"; sourceTree = "<group>"; };
-		89F2D08E1D74B45B00C98165 /* IntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationTests.m; sourceTree = "<group>"; };
+		89F2D08E1D74B45B00C98165 /* IntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IntegrationTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		89F2D0951D76041700C98165 /* LocationGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationGateway.h; sourceTree = "<group>"; };
 		89F2D0961D76041700C98165 /* LocationGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGateway.m; sourceTree = "<group>"; };
-		89F2D9501D53C44000E4E5A0 /* NearbyBusinessesDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyBusinessesDataSourceTests.m; sourceTree = "<group>"; };
-		89F60C931DC1220D00F38C49 /* BusinessesDataControllerIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessesDataControllerIntegrationTests.m; sourceTree = "<group>"; };
+		89F2D9501D53C44000E4E5A0 /* NearbyBusinessesDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NearbyBusinessesDataSourceTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		89F60C931DC1220D00F38C49 /* BusinessesDataControllerIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BusinessesDataControllerIntegrationTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		89FB39041D88A00B0086851E /* FourSquareGatewayUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareGatewayUnitTests.m; sourceTree = "<group>"; };
 		89FB39071D88A08C0086851E /* FourSquareResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareResponseParser.h; sourceTree = "<group>"; };
 		89FB39081D88A08C0086851E /* FourSquareResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareResponseParser.m; sourceTree = "<group>"; };
@@ -148,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CD09AB1E562CAB00F2CFD2 /* MapKit.framework in Frameworks */,
 				1158243836A1B6A4F86ABC66 /* libPods-Business Finder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,20 +167,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8974896D1D4FB5FE00531975 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA32C2811F3D02926DF467E /* libPods-Business FinderUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4662B8DC08A55B1D83FB1A79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89CD09AA1E562CAB00F2CFD2 /* MapKit.framework */,
 				7134A03E733D2E77AB586C7A /* libPods-Business Finder.a */,
 				E0366CFC301E99CB673E4E05 /* libPods-Business FinderTests.a */,
 				F9DBF609E3D820FC6BF64DD6 /* libPods-Business FinderUITests.a */,
@@ -196,13 +196,21 @@
 			path = "Slower Tests";
 			sourceTree = "<group>";
 		};
+		890E51AE1E57BAAB004A6061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				890E51B81E57BC4E004A6061 /* BusinessCell.h */,
+				890E51B91E57BC4E004A6061 /* BusinessCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		897489401D4FB5FD00531975 = {
 			isa = PBXGroup;
 			children = (
 				8974894B1D4FB5FD00531975 /* Business Finder */,
 				897489681D4FB5FE00531975 /* Fastest Tests */,
 				89034AF01D55379600BCA3A0 /* Slower Tests */,
-				897489731D4FB5FE00531975 /* Business FinderUITests */,
 				8974894A1D4FB5FD00531975 /* Products */,
 				F1D7D5EB022FCF6C291ACFB7 /* Pods */,
 				4662B8DC08A55B1D83FB1A79 /* Frameworks */,
@@ -214,7 +222,6 @@
 			children = (
 				897489491D4FB5FD00531975 /* Business Finder.app */,
 				897489651D4FB5FE00531975 /* Fastest Tests.xctest */,
-				897489701D4FB5FE00531975 /* Business FinderUITests.xctest */,
 				89034AEF1D55379600BCA3A0 /* Slower Tests.xctest */,
 			);
 			name = Products;
@@ -223,6 +230,7 @@
 		8974894B1D4FB5FD00531975 /* Business Finder */ = {
 			isa = PBXGroup;
 			children = (
+				890E51AE1E57BAAB004A6061 /* Views */,
 				89A8F94A1DD5297F00135762 /* Controllers */,
 				89A8F94B1DD529F200135762 /* Model */,
 				89A8F9481DD5290400135762 /* Gateways */,
@@ -248,11 +256,13 @@
 		897489681D4FB5FE00531975 /* Fastest Tests */ = {
 			isa = PBXGroup;
 			children = (
-				89BD5A6D1D886068007879E0 /* BusinessesDataControllerTests.m */,
+				89BD5A6D1D886068007879E0 /* ModelTests.m */,
 				89EE610C1DBEADE400D2FB36 /* Test Media.xcassets */,
 				893552DE1D7739B300D590A6 /* LocationGatewayUnitTests.m */,
 				89F2D9501D53C44000E4E5A0 /* NearbyBusinessesDataSourceTests.m */,
-				897489871D4FBD5200531975 /* MainStoryboardTests.m */,
+				890E51AB1E579E6C004A6061 /* NearbyBusinessesTableViewControllerTests.m */,
+				890E51A91E579DEF004A6061 /* MapViewControllerTests.m */,
+				8940B6E31E5CED3C000D8946 /* MapControllerTests.m */,
 				8974896B1D4FB5FE00531975 /* Info.plist */,
 				89FB39041D88A00B0086851E /* FourSquareGatewayUnitTests.m */,
 				89E9A4F61DA6C2760046E868 /* FourSquareResponseParserTests.m */,
@@ -260,15 +270,6 @@
 				891FC6881D96C37E00ED44C4 /* NearbyBusinessesTVCDelegateTests.m */,
 			);
 			path = "Fastest Tests";
-			sourceTree = "<group>";
-		};
-		897489731D4FB5FE00531975 /* Business FinderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				897489741D4FB5FE00531975 /* Business_FinderUITests.m */,
-				897489761D4FB5FE00531975 /* Info.plist */,
-			);
-			path = "Business FinderUITests";
 			sourceTree = "<group>";
 		};
 		89A8F9481DD5290400135762 /* Gateways */ = {
@@ -291,16 +292,20 @@
 		89A8F94A1DD5297F00135762 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				89A10CDD1D5123ED009E5867 /* BusinessesDataController.h */,
-				89A10CE11D512DFC009E5867 /* BusinessesDataController.m */,
 				891FC68D1D9C4E4F00ED44C4 /* BusinessFinderErrorDomain.h */,
 				891FC68E1D9C4FE900ED44C4 /* BusinessFinderErrorDomain.m */,
 				897489841D4FBC3E00531975 /* NearbyBusinessesTableViewController.h */,
 				897489851D4FBC3E00531975 /* NearbyBusinessesTableViewController.m */,
-				8919F7571D5273810061FA3E /* NearbyBusinessesDataSource.h */,
-				8919F7581D5273810061FA3E /* NearbyBusinessesDataSource.m */,
 				891FC68A1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.h */,
 				891FC68B1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.m */,
+				890E51A61E563B01004A6061 /* MapViewController.h */,
+				890E51A71E563B01004A6061 /* MapViewController.m */,
+				8940B6E01E5CED14000D8946 /* MapController.h */,
+				8940B6E11E5CED14000D8946 /* MapController.m */,
+				8940B6DD1E5CE448000D8946 /* BusinessAnnotation.h */,
+				8940B6DE1E5CE448000D8946 /* BusinessAnnotation.m */,
+				8919F7571D5273810061FA3E /* NearbyBusinessesDataSource.h */,
+				8919F7581D5273810061FA3E /* NearbyBusinessesDataSource.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -308,6 +313,8 @@
 		89A8F94B1DD529F200135762 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				89A10CDD1D5123ED009E5867 /* Model.h */,
+				89A10CE11D512DFC009E5867 /* Model.m */,
 				89A10CDA1D511ABA009E5867 /* Business.h */,
 				89A10CDB1D511ABA009E5867 /* Business.m */,
 			);
@@ -394,26 +401,6 @@
 			productReference = 897489651D4FB5FE00531975 /* Fastest Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8974896F1D4FB5FE00531975 /* Business FinderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8974897F1D4FB5FE00531975 /* Build configuration list for PBXNativeTarget "Business FinderUITests" */;
-			buildPhases = (
-				4073450E5500D130A8108F60 /* 📦 Check Pods Manifest.lock */,
-				8974896C1D4FB5FE00531975 /* Sources */,
-				8974896D1D4FB5FE00531975 /* Frameworks */,
-				8974896E1D4FB5FE00531975 /* Resources */,
-				920601726518781885C9C1A7 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				897489721D4FB5FE00531975 /* PBXTargetDependency */,
-			);
-			name = "Business FinderUITests";
-			productName = "Business FinderUITests";
-			productReference = 897489701D4FB5FE00531975 /* Business FinderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -435,10 +422,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 897489481D4FB5FD00531975;
 					};
-					8974896F1D4FB5FE00531975 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 897489481D4FB5FD00531975;
-					};
 				};
 			};
 			buildConfigurationList = 897489441D4FB5FD00531975 /* Build configuration list for PBXProject "Business Finder" */;
@@ -456,7 +439,6 @@
 			targets = (
 				897489481D4FB5FD00531975 /* Business Finder */,
 				897489641D4FB5FE00531975 /* Fastest Tests */,
-				8974896F1D4FB5FE00531975 /* Business FinderUITests */,
 				89034AEE1D55379600BCA3A0 /* Slower Tests */,
 			);
 		};
@@ -486,13 +468,6 @@
 			files = (
 				89E9A4FB1DA6CE930046E868 /* Sample FourSquare Response.txt in Resources */,
 				89EE610D1DBEADE400D2FB36 /* Test Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8974896E1D4FB5FE00531975 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,21 +504,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slower Tests/Pods-Slower Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4073450E5500D130A8108F60 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		6BF8275F046EC305520562D9 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -572,21 +532,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fastest Tests/Pods-Fastest Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		920601726518781885C9C1A7 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Business FinderUITests/Pods-Business FinderUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ADE8EEC642293D60DF90FA71 /* 📦 Copy Pods Resources */ = {
@@ -686,16 +631,20 @@
 				891FC68C1D96C3F500ED44C4 /* NearbyBusinessesTVCDelegate.m in Sources */,
 				897489861D4FBC3E00531975 /* NearbyBusinessesTableViewController.m in Sources */,
 				891FC68F1D9C4FE900ED44C4 /* BusinessFinderErrorDomain.m in Sources */,
-				89A10CE21D512DFD009E5867 /* BusinessesDataController.m in Sources */,
+				89A10CE21D512DFD009E5867 /* Model.m in Sources */,
 				89FB39091D88A08C0086851E /* FourSquareResponseParser.m in Sources */,
 				89034AE81D5532C300BCA3A0 /* URLFetcher.m in Sources */,
+				8940B6DF1E5CE448000D8946 /* BusinessAnnotation.m in Sources */,
+				8940B6E21E5CED14000D8946 /* MapController.m in Sources */,
 				897489511D4FB5FD00531975 /* AppDelegate.m in Sources */,
 				89A10CDC1D511ABA009E5867 /* Business.m in Sources */,
+				890E51BA1E57BC4E004A6061 /* BusinessCell.m in Sources */,
 				8974894E1D4FB5FD00531975 /* main.m in Sources */,
 				8919F7591D5273810061FA3E /* NearbyBusinessesDataSource.m in Sources */,
 				89034AFD1D5544DA00BCA3A0 /* FourSquareGateway.m in Sources */,
 				89F2D0971D76041700C98165 /* LocationGateway.m in Sources */,
 				89FB390C1D88A0C80086851E /* GCDGateway.m in Sources */,
+				890E51A81E563B01004A6061 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,21 +652,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BD5A6F1D8860AF007879E0 /* BusinessesDataControllerTests.m in Sources */,
-				897489881D4FBD5200531975 /* MainStoryboardTests.m in Sources */,
+				8940B6E41E5CED3C000D8946 /* MapControllerTests.m in Sources */,
+				89BD5A6F1D8860AF007879E0 /* ModelTests.m in Sources */,
+				890E51AC1E579E6C004A6061 /* NearbyBusinessesTableViewControllerTests.m in Sources */,
 				89F2D9511D53C44000E4E5A0 /* NearbyBusinessesDataSourceTests.m in Sources */,
+				890E51AA1E579DEF004A6061 /* MapViewControllerTests.m in Sources */,
 				893552DF1D7739B300D590A6 /* LocationGatewayUnitTests.m in Sources */,
 				891FC6891D96C37E00ED44C4 /* NearbyBusinessesTVCDelegateTests.m in Sources */,
 				89E9A4F71DA6C2760046E868 /* FourSquareResponseParserTests.m in Sources */,
 				89FB39061D88A00B0086851E /* FourSquareGatewayUnitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8974896C1D4FB5FE00531975 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				897489751D4FB5FE00531975 /* Business_FinderUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,11 +676,6 @@
 			isa = PBXTargetDependency;
 			target = 897489481D4FB5FD00531975 /* Business Finder */;
 			targetProxy = 897489661D4FB5FE00531975 /* PBXContainerItemProxy */;
-		};
-		897489721D4FB5FE00531975 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 897489481D4FB5FD00531975 /* Business Finder */;
-			targetProxy = 897489711D4FB5FE00531975 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -931,30 +869,6 @@
 			};
 			name = Release;
 		};
-		897489801D4FB5FE00531975 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D612ADB2EB6075CB6276616B /* Pods-Business FinderUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = "Business FinderUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.notthatmj.Business-FinderUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Business Finder";
-			};
-			name = Debug;
-		};
-		897489811D4FB5FE00531975 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 717AF45362CFD123FD8D3006 /* Pods-Business FinderUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = "Business FinderUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.notthatmj.Business-FinderUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Business Finder";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -990,15 +904,6 @@
 			buildConfigurations = (
 				8974897D1D4FB5FE00531975 /* Debug */,
 				8974897E1D4FB5FE00531975 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8974897F1D4FB5FE00531975 /* Build configuration list for PBXNativeTarget "Business FinderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				897489801D4FB5FE00531975 /* Debug */,
-				897489811D4FB5FE00531975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

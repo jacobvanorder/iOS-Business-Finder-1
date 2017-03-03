@@ -12,9 +12,12 @@
 
 @interface NearbyBusinessesTVCDelegate : NSObject<NearbyBusinessesDataSourceDelegate>
 -(void)startInitialLoad;
-@property (strong, nonatomic) UIRefreshControl *refreshControl;
+-(void)updateBusinesses;
+-(Business *)businessAtIndex:(NSInteger) index;
 // This property is weak because `NearbyBusinessesTableViewController` maintains a strong
 // reference to its `NearbyBusinessesTVCDelegate`, and we want to avoid a retain cycle.
 @property (weak, nonatomic) NearbyBusinessesTableViewController* nearbyBusinessesTableViewController;
 @property (strong, nonatomic) NearbyBusinessesDataSource *dataSource;
+@property (nonatomic) double userLatitude;
+@property (nonatomic) double userLongitude;
 @end
